@@ -9,9 +9,9 @@ int main() {
 	scanf("%d",&n);
  // Fill the code in scanf()
 	do {
-		printf("I Love VVCE ");
+		printf("I Love VVCE");
 		i++;
 		// complete the statement
-	} while(i<=);
+	} while(i<=n);
 	return(0);// complete the condition
 }
