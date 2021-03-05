@@ -13,9 +13,10 @@ int main()
 
   
   for (c = 0; c < n; c++)
+  {
     scanf("%d", &array[c]);
-
- 
+  }
+ printf("Enter the search element: ");
   scanf("%d", &search);
 
   for (c = 0; c < n; c++)
@@ -28,7 +29,7 @@ int main()
     }
   }
   if (c == n)
-    printf("%d is not present in the array", );
+    printf("%d is not present in the array",c );
 
   return 0;
 }
