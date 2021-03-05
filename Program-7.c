@@ -8,11 +8,13 @@
 	  int a[10],i,n;
 	  printf("Enter size of the array and the array elements");
 	  scanf("%d",&n);
-	  
-	  for(i=0;i<n;i++)
-	  scanf("%d",&a[]);//missing code
-	  printf("Array elements in reverse order : ");
-	  for(i=;i;i) //missing code
+	  printf("Enter the array elements");
+	  for(i=n;i<0;i++)
+	  scanf("%d",&a[i]);//missing code
+	  printf("Array elements in reverse order :");
+	  for(i=n;i>=0;i--) 
+    {//missing code
 	  printf("%d ",a[i]);
+    }
 	  return(0);
 	}
