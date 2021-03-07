@@ -23,7 +23,7 @@ int main()
         num/= 10;
     } while(num!=0);
 
-    printf("Total digits: %d",count );
+    printf("Total digits:%d",count );
 
     return 0;
 }
